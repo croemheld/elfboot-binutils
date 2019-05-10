@@ -211,7 +211,8 @@ case ${generic_target} in
   i386-*-beospe*)			fmt=coff em=pe ;;
   i386-*-beos*)				fmt=elf ;;
   i386-*-elfiamcu)			fmt=elf arch=iamcu ;;
-  i386-*-elf*)				fmt=elf ;;
+  i386-*-elf*)        fmt=elf ;;
+  i386-*-elfboot*)      fmt=elf ;;
   i386-*-fuchsia*)			fmt=elf ;;
   i386-*-kaos*)				fmt=elf ;;
   i386-*-bsd*)				fmt=aout em=386bsd ;;
